@@ -4,3 +4,7 @@
 StackView
 Hugging Priority
 minium, maximum constraint
+
+## DynamicFont
+Alignment
+Setting proper ratio

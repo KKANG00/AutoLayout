@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina3_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="DynamicFont" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0ke-sb-Pba">
+                                <rect key="frame" x="20" y="40.5" width="280" height="399"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Cert_BG" translatesAutoresizingMaskIntoConstraints="NO" id="Hhi-6W-0rF">
+                                        <rect key="frame" x="0.0" y="0.0" width="280" height="399"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="Hhi-6W-0rF" secondAttribute="height" multiplier="1009:1438" id="9NQ-RX-3uq"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="공인인증서" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="15" translatesAutoresizingMaskIntoConstraints="NO" id="nwr-T8-hpW">
+                                        <rect key="frame" x="98" y="0.0" width="84" height="139.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="강지우" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="20" translatesAutoresizingMaskIntoConstraints="NO" id="pLY-cn-9zO">
+                                        <rect key="frame" x="102" y="0.0" width="76" height="279.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="만료일: 2022-08-11" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CS4-BF-Rgb">
+                                        <rect key="frame" x="76.5" y="0.0" width="144" height="499"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="종 류: 은행" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="2mp-VH-DEM">
+                                        <rect key="frame" x="76.5" y="0.0" width="73" height="439"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="발급자: 금융결제원" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="vdE-47-17R">
+                                        <rect key="frame" x="76.5" y="0.0" width="127" height="379"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="Hhi-6W-0rF" firstAttribute="centerX" secondItem="0ke-sb-Pba" secondAttribute="centerX" id="1Ca-dC-ITM"/>
+                                    <constraint firstItem="pLY-cn-9zO" firstAttribute="width" secondItem="Hhi-6W-0rF" secondAttribute="width" multiplier="0.27" id="20R-yJ-g6O"/>
+                                    <constraint firstItem="pLY-cn-9zO" firstAttribute="top" secondItem="Hhi-6W-0rF" secondAttribute="top" id="330-us-LZE"/>
+                                    <constraint firstItem="2mp-VH-DEM" firstAttribute="leading" secondItem="vdE-47-17R" secondAttribute="leading" id="8ME-RJ-yCP"/>
+                                    <constraint firstItem="Hhi-6W-0rF" firstAttribute="centerX" secondItem="0ke-sb-Pba" secondAttribute="centerX" id="A0O-xh-7nJ"/>
+                                    <constraint firstItem="pLY-cn-9zO" firstAttribute="bottom" secondItem="Hhi-6W-0rF" secondAttribute="bottom" multiplier="0.7" id="CiX-LZ-qJp"/>
+                                    <constraint firstItem="pLY-cn-9zO" firstAttribute="centerX" secondItem="0ke-sb-Pba" secondAttribute="centerX" id="Eiq-rq-iZm"/>
+                                    <constraint firstItem="nwr-T8-hpW" firstAttribute="bottom" secondItem="Hhi-6W-0rF" secondAttribute="bottom" multiplier="0.35" id="Eyf-yn-6T0"/>
+                                    <constraint firstItem="CS4-BF-Rgb" firstAttribute="top" secondItem="Hhi-6W-0rF" secondAttribute="top" id="I8C-OK-QMG"/>
+                                    <constraint firstItem="nwr-T8-hpW" firstAttribute="centerX" secondItem="0ke-sb-Pba" secondAttribute="centerX" id="KXh-b1-C9r"/>
+                                    <constraint firstItem="Hhi-6W-0rF" firstAttribute="centerX" secondItem="0ke-sb-Pba" secondAttribute="centerX" id="Myn-Sg-54P"/>
+                                    <constraint firstAttribute="trailing" secondItem="Hhi-6W-0rF" secondAttribute="trailing" id="N92-LB-yAV"/>
+                                    <constraint firstItem="CS4-BF-Rgb" firstAttribute="bottom" secondItem="Hhi-6W-0rF" secondAttribute="bottom" multiplier="1.25" id="NvR-63-YXj"/>
+                                    <constraint firstItem="2mp-VH-DEM" firstAttribute="bottom" secondItem="Hhi-6W-0rF" secondAttribute="bottom" multiplier="1.1" id="Uji-XD-RbB"/>
+                                    <constraint firstItem="2mp-VH-DEM" firstAttribute="top" secondItem="Hhi-6W-0rF" secondAttribute="top" id="Wug-Zd-l89"/>
+                                    <constraint firstItem="nwr-T8-hpW" firstAttribute="top" secondItem="Hhi-6W-0rF" secondAttribute="top" id="dlv-qb-k9P"/>
+                                    <constraint firstItem="Hhi-6W-0rF" firstAttribute="top" secondItem="0ke-sb-Pba" secondAttribute="top" id="fId-6Q-HmM"/>
+                                    <constraint firstItem="nwr-T8-hpW" firstAttribute="width" secondItem="Hhi-6W-0rF" secondAttribute="width" multiplier="0.3" id="gA0-zL-a2e"/>
+                                    <constraint firstAttribute="bottom" secondItem="Hhi-6W-0rF" secondAttribute="bottom" id="kx1-LW-ZBB"/>
+                                    <constraint firstItem="vdE-47-17R" firstAttribute="bottom" secondItem="Hhi-6W-0rF" secondAttribute="bottom" multiplier="0.95" id="qhY-dr-W9G"/>
+                                    <constraint firstItem="vdE-47-17R" firstAttribute="top" secondItem="Hhi-6W-0rF" secondAttribute="top" id="rJy-UX-GtS"/>
+                                    <constraint firstItem="Hhi-6W-0rF" firstAttribute="leading" secondItem="0ke-sb-Pba" secondAttribute="leading" id="u38-qw-Ng4"/>
+                                    <constraint firstItem="vdE-47-17R" firstAttribute="centerX" secondItem="0ke-sb-Pba" secondAttribute="centerX" id="uye-cD-X1h"/>
+                                    <constraint firstItem="CS4-BF-Rgb" firstAttribute="leading" secondItem="2mp-VH-DEM" secondAttribute="leading" id="zAE-Uk-wC5"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="0ke-sb-Pba" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="1EH-3R-ESy"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="0ke-sb-Pba" secondAttribute="trailing" constant="20" id="Lv2-0W-TNd"/>
+                            <constraint firstItem="0ke-sb-Pba" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="bDN-Fl-YIH"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="73.913043478260875" y="88.392857142857139"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Cert_BG" width="1009" height="1438"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
