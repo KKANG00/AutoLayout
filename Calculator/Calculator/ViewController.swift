@@ -20,7 +20,7 @@ class ViewController: UIViewController {
         displayLabel.layer.masksToBounds = true
 //        displayLabel.clipsToBounds = true
         
-//        button1.layer.cornerRadius = 33
+        button1.layer.cornerRadius = button1.bounds.width / 2
 //        button10.layer.cornerRadius = button10.bounds.height * 0.5
     }
 
