@@ -7,16 +7,30 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, CustomKeyboardDelegate {
 
     @IBOutlet weak var firstField: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        let customKeyboard = Bundle.main.loadNibNamed("CustomKeyboard", owner: nil, options: nil)
-        firstField.inputView = customKeyboard?.first as! CustomKeyboard
+        let customKeyboard = Bundle.main.loadNibNamed("CustomKeyboard", owner: nil, options: nil)?.first as! CustomKeyboard
+        customKeyboard.delegate = self
         
+        firstField.inputView = customKeyboard
+    }
+    
+    func sendValue(value: String) {
+        if let text = firstField.text {
+            if value == "<" {
+                firstField.text = String(text.dropLast())
+                return
+            }
+            firstField.text = text + value
+        }
+        else {
+            firstField.text = value
+        }
     }
     
 }
