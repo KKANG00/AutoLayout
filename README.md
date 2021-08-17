@@ -14,3 +14,5 @@ Custom view (using xib)
 
 ## ExpandCellAtLabel
 tableView
+numberOfLines 조절하여 expand
+TableCell Height, Animation 제어
