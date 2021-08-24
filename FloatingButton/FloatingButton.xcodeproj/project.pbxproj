@@ -14,6 +14,7 @@
 		627C9B8526D330AB006E641F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 627C9B8426D330AB006E641F /* Assets.xcassets */; };
 		627C9B8826D330AB006E641F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 627C9B8626D330AB006E641F /* LaunchScreen.storyboard */; };
 		627C9B9026D33651006E641F /* FloatingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627C9B8F26D33651006E641F /* FloatingViewController.swift */; };
+		62F3FECB26D4BB2100D22C9A /* screenProtecter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F3FECA26D4BB2100D22C9A /* screenProtecter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		627C9B8726D330AB006E641F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		627C9B8926D330AB006E641F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		627C9B8F26D33651006E641F /* FloatingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingViewController.swift; sourceTree = "<group>"; };
+		62F3FECA26D4BB2100D22C9A /* screenProtecter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = screenProtecter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				627C9B7B26D330AA006E641F /* AppDelegate.swift */,
+				62F3FECA26D4BB2100D22C9A /* screenProtecter.swift */,
 				627C9B7D26D330AA006E641F /* SceneDelegate.swift */,
 				627C9B7F26D330AA006E641F /* ViewController.swift */,
 				627C9B8126D330AA006E641F /* Main.storyboard */,
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				627C9B8026D330AA006E641F /* ViewController.swift in Sources */,
+				62F3FECB26D4BB2100D22C9A /* screenProtecter.swift in Sources */,
 				627C9B7C26D330AA006E641F /* AppDelegate.swift in Sources */,
 				627C9B9026D33651006E641F /* FloatingViewController.swift in Sources */,
 				627C9B7E26D330AA006E641F /* SceneDelegate.swift in Sources */,

@@ -8,7 +8,6 @@
 import UIKit
 
 class ViewController: UIViewController {
-
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -22,26 +21,3 @@ class ViewController: UIViewController {
     }
 
 }
-
-//class ScreenProtector {
-//    private var warningWindow: UIWindow?
-//
-//    private var window: UIWindow? {
-//        return (UIApplication.shared.connectedScenes.first?.delegate as? SceneDelegate)?.window
-//    }
-//
-//    func startPreventingRecording() {
-//        NotificationCenter.default.addObserver(self, selector: #selector(didDetectRecording), name: UIScreen.capturedDidChangeNotification, object: nil)
-//    }
-//
-//    @objc private func didDetectRecording() {
-//        DispatchQueue.main.async {
-//            self.hideScreen()
-////            self.presentWarningWindow()
-//        }
-//    }
-//    
-//    private func hideScreen() {
-//        print(UIScreen.main.isCaptured)
-//    }
-//}
