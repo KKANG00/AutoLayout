@@ -12,17 +12,21 @@ Setting proper ratio
 ## CustomKeyboard
 Custom view (using xib)  
 
+![](https://github.com/KKANG00/AutoLayout/blob/main/CustomKeyboard/CustomKeyboard.png)
+
 ## ExpandCellAtLabel
 tableView  
 numberOfLines 조절하여 expand  
 TableCell Height, Animation 제어  
 
-![](https://github.com/KKANG00/AutoLayout/tree/main/ExpandCellAtLabel/ExpandCellAtLabel.gif)
+![](https://github.com/KKANG00/AutoLayout/blob/main/ExpandCellAtLabel/ExpandCellAtLabel.gif)
 
 ## FloatingButton
 Visual Effect View with Blur  
 버튼 튀어오르는 애니메이션 효과 =>  UIView.animate(damping)   
 escaping closure  
+
+![](https://github.com/KKANG00/AutoLayout/blob/main/FloatingButton/FloatingButton.gif)
 
 ## GraphLayout
 Proportional Height - Multiplier (get-only property)  
@@ -60,3 +64,5 @@ custom CodeView를 storyboard에서 사용하기 위한 키워드
 ## CustomSwitch
 Copy apple switch button  
 using UIView.animate, constraint constant  
+
+![](https://github.com/KKANG00/AutoLayout/blob/main/CustomSwitch/CustomSwitch.gif)
