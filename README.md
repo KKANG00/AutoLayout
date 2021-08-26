@@ -100,3 +100,18 @@ modalPresentationStyle
 overCurrentContext  
 
 ![](https://github.com/KKANG00/AutoLayout/blob/main/Popup/Popup.png)
+
+
+- - -
+
+## SignIn
+로그인 화면에서 입력에 따라 에러메세지 노출하기  
+
+### Keywords
+TextField.addTarget  
+heightAnchor.constraint(equalToConstant: 0)  
+Regular Expression  
+``` swift
+//이메일 정규식 표현  
+let emailRegEx = "[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,64}"
+```
