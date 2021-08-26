@@ -91,3 +91,12 @@ constraint constant
 
 
 - - -
+
+## Popup
+view 바깥으로 튀어나온 팝업 페이지 그리기  
+
+### Keywords
+modalPresentationStyle  
+overCurrentContext  
+
+![](https://github.com/KKANG00/AutoLayout/blob/main/Popup/Popup.png)
