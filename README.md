@@ -17,6 +17,8 @@ tableView
 numberOfLines 조절하여 expand  
 TableCell Height, Animation 제어  
 
+![](https://github.com/KKANG00/AutoLayout/tree/main/ExpandCellAtLabel/ExpandCellAtLabel.gif)
+
 ## FloatingButton
 Visual Effect View with Blur  
 버튼 튀어오르는 애니메이션 효과 =>  UIView.animate(damping)   

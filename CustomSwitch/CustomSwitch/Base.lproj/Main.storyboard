@@ -45,12 +45,28 @@
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qMj-Xg-7dB">
                                 <rect key="frame" x="182.5" y="392" width="51" height="31"/>
                             </switch>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Copy" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rsz-Zf-VzB">
+                                <rect key="frame" x="132" y="437.5" width="40" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="UISwitch" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MYY-9e-AeJ">
+                                <rect key="frame" x="105" y="397" width="67.5" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="qMj-Xg-7dB" firstAttribute="centerY" secondItem="MYY-9e-AeJ" secondAttribute="centerY" id="KrP-TE-KLy"/>
+                            <constraint firstItem="qMj-Xg-7dB" firstAttribute="leading" secondItem="MYY-9e-AeJ" secondAttribute="trailing" constant="10" id="N8H-Nu-Zhj"/>
                             <constraint firstItem="qMj-Xg-7dB" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="O01-5o-kKm"/>
+                            <constraint firstItem="C9l-zy-qfm" firstAttribute="centerY" secondItem="Rsz-Zf-VzB" secondAttribute="centerY" id="PYQ-Yz-ZR9"/>
                             <constraint firstItem="C9l-zy-qfm" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="atZ-Fq-ytf"/>
+                            <constraint firstItem="C9l-zy-qfm" firstAttribute="leading" secondItem="Rsz-Zf-VzB" secondAttribute="trailing" constant="10" id="cHK-Ag-Ck9"/>
                             <constraint firstItem="C9l-zy-qfm" firstAttribute="top" secondItem="qMj-Xg-7dB" secondAttribute="bottom" constant="10" id="o4E-UT-pDZ"/>
                             <constraint firstItem="C9l-zy-qfm" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="oda-AN-VfN"/>
                         </constraints>
