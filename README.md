@@ -123,8 +123,15 @@ let emailRegEx = "[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,64}"
 유연하게 움직이는 채팅 앱 그리기
 
 ### Keywords
-Custom TableViewCell (UINib)
+Custom TableViewCell (UINib)  
+self.view.safeAreaInsets.bottom  
 Keyboard Observer  
 ``` swift
 NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillShow), name: UIResponder.keyboardWillShowNotification, object: nil)
 ```
+KeyboardAnimationDuration  
+``` swift
+let animationDuration = notiInfo[UIResponder.keyboardAnimationDurationUserInfoKey] as! TimeInterval
+```
+TableView reload -> insertRows  
+textViewDidChange  

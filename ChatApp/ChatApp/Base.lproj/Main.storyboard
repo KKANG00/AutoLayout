@@ -16,10 +16,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="jbU-tp-dmU">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" keyboardDismissMode="onDrag" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="jbU-tp-dmU">
                                 <rect key="frame" x="0.0" y="44" width="414" height="768"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <color key="sectionIndexBackgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" systemColor="systemGray5Color"/>
                             </tableView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fgY-10-elb">
                                 <rect key="frame" x="0.0" y="812" width="414" height="50"/>
@@ -56,7 +55,7 @@
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="fgY-10-elb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="3Wy-1D-uU9"/>
                             <constraint firstItem="jbU-tp-dmU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="6uO-fV-1PV"/>
@@ -69,8 +68,9 @@
                     </view>
                     <connections>
                         <outlet property="chatTableView" destination="jbU-tp-dmU" id="maQ-i1-NMg"/>
-                        <outlet property="inputTextField" destination="ZYu-7f-LXO" id="TzX-ub-3KM"/>
-                        <outlet property="inputViewBottom" destination="nXI-9H-K3Y" id="p0z-Q0-ddS"/>
+                        <outlet property="inputTextField" destination="ZYu-7f-LXO" id="QPl-9P-PEE"/>
+                        <outlet property="inputTextViewHeight" destination="bv0-4a-KlS" id="9ss-hQ-tCz"/>
+                        <outlet property="inputViewBottom" destination="p5L-Ra-9HU" id="9dk-ez-Sa9"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
