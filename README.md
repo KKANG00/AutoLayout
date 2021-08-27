@@ -115,3 +115,16 @@ Regular Expression
 //이메일 정규식 표현  
 let emailRegEx = "[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,64}"
 ```
+
+
+- - -
+
+## ChatApp
+유연하게 움직이는 채팅 앱 그리기
+
+### Keywords
+Custom TableViewCell (UINib)
+Keyboard Observer  
+``` swift
+NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillShow), name: UIResponder.keyboardWillShowNotification, object: nil)
+```
