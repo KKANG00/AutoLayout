@@ -17,7 +17,7 @@ class LoginPopupViewController: UIViewController {
 
         // Do any additional setup after loading the view.
         
-        userLabel.text = "\(email) 님"
+        userLabel.text = "\(email ?? "") 님,"
     }
     
     @IBAction func CloseButtonPressed(_ sender: Any) {
