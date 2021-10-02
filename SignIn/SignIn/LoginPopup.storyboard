@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Login Popup View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="loginpopup" id="Y6W-OH-hqX" customClass="LoginPopupViewController" customModule="SignIn" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Al7-FH-YT9">
+                                <rect key="frame" x="87" y="394" width="240" height="108"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="님," textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3a5-Lz-RNn">
+                                        <rect key="frame" x="10" y="10" width="220" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="환영합니다!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wvd-Z2-8t2">
+                                        <rect key="frame" x="10" y="36" width="220" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XD2-P7-DUm">
+                                        <rect key="frame" x="95.5" y="67" width="49" height="31"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="tinted" title="확인"/>
+                                        <connections>
+                                            <action selector="CloseButtonPressed:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="ozT-Pr-lns"/>
+                                            <action selector="CloseButtonPressed:" destination="jkZ-14-w1O" eventType="touchUpInside" id="voX-O7-CcK"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="XD2-P7-DUm" firstAttribute="top" secondItem="Wvd-Z2-8t2" secondAttribute="bottom" constant="10" id="9dg-YA-gLd"/>
+                                    <constraint firstItem="Wvd-Z2-8t2" firstAttribute="centerX" secondItem="3a5-Lz-RNn" secondAttribute="centerX" id="JZE-nv-Jwh"/>
+                                    <constraint firstAttribute="trailing" secondItem="Wvd-Z2-8t2" secondAttribute="trailing" constant="10" id="K4B-5b-DYv"/>
+                                    <constraint firstItem="XD2-P7-DUm" firstAttribute="centerX" secondItem="3a5-Lz-RNn" secondAttribute="centerX" id="OgG-7o-2aF"/>
+                                    <constraint firstAttribute="bottom" secondItem="XD2-P7-DUm" secondAttribute="bottom" constant="10" id="Q8a-k0-f1f"/>
+                                    <constraint firstItem="Wvd-Z2-8t2" firstAttribute="leading" secondItem="Al7-FH-YT9" secondAttribute="leading" constant="10" id="ZYx-tb-WzX"/>
+                                    <constraint firstItem="Wvd-Z2-8t2" firstAttribute="top" secondItem="3a5-Lz-RNn" secondAttribute="bottom" constant="5" id="awd-pr-tf3"/>
+                                    <constraint firstItem="3a5-Lz-RNn" firstAttribute="top" secondItem="Al7-FH-YT9" secondAttribute="top" constant="10" id="ePA-av-nU1"/>
+                                    <constraint firstItem="3a5-Lz-RNn" firstAttribute="leading" secondItem="Al7-FH-YT9" secondAttribute="leading" constant="10" id="gqa-32-03q"/>
+                                    <constraint firstAttribute="trailing" secondItem="3a5-Lz-RNn" secondAttribute="trailing" constant="10" id="grc-zZ-7ln"/>
+                                    <constraint firstAttribute="width" constant="240" id="uSc-Ni-bRi"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" red="0.42419056056701032" green="0.42419056056701032" blue="0.42419056056701032" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="Al7-FH-YT9" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="fDB-NC-hti"/>
+                            <constraint firstItem="Al7-FH-YT9" firstAttribute="centerY" secondItem="5EZ-qb-Rvc" secondAttribute="centerY" id="wb5-IK-OJl"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="userLabel" destination="3a5-Lz-RNn" id="Bz3-Qp-P1X"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="jkZ-14-w1O" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="23" y="107"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

@@ -11,8 +11,10 @@
 		62B675EC26D78DB900A091B5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B675EB26D78DB900A091B5 /* SceneDelegate.swift */; };
 		62B675EE26D78DB900A091B5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B675ED26D78DB900A091B5 /* ViewController.swift */; };
 		62B675F126D78DB900A091B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62B675EF26D78DB900A091B5 /* Main.storyboard */; };
-		62B675F326D78DBA00A091B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62B675F226D78DBA00A091B5 /* Assets.xcassets */; };
 		62B675F626D78DBA00A091B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62B675F426D78DBA00A091B5 /* LaunchScreen.storyboard */; };
+		AD4C0D262708A22100F2F1B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD4C0D252708A22100F2F1B4 /* Assets.xcassets */; };
+		AD4C0D2C2708A5BA00F2F1B4 /* LoginPopup.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD4C0D2B2708A5BA00F2F1B4 /* LoginPopup.storyboard */; };
+		AD4C0D302708A73F00F2F1B4 /* LoginPopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4C0D2F2708A73F00F2F1B4 /* LoginPopupViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,9 +23,11 @@
 		62B675EB26D78DB900A091B5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		62B675ED26D78DB900A091B5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		62B675F026D78DB900A091B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		62B675F226D78DBA00A091B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		62B675F526D78DBA00A091B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		62B675F726D78DBA00A091B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD4C0D252708A22100F2F1B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD4C0D2B2708A5BA00F2F1B4 /* LoginPopup.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LoginPopup.storyboard; sourceTree = "<group>"; };
+		AD4C0D2F2708A73F00F2F1B4 /* LoginPopupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPopupViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +64,11 @@
 				62B675EB26D78DB900A091B5 /* SceneDelegate.swift */,
 				62B675ED26D78DB900A091B5 /* ViewController.swift */,
 				62B675EF26D78DB900A091B5 /* Main.storyboard */,
-				62B675F226D78DBA00A091B5 /* Assets.xcassets */,
 				62B675F426D78DBA00A091B5 /* LaunchScreen.storyboard */,
 				62B675F726D78DBA00A091B5 /* Info.plist */,
+				AD4C0D252708A22100F2F1B4 /* Assets.xcassets */,
+				AD4C0D2B2708A5BA00F2F1B4 /* LoginPopup.storyboard */,
+				AD4C0D2F2708A73F00F2F1B4 /* LoginPopupViewController.swift */,
 			);
 			path = SignIn;
 			sourceTree = "<group>";
@@ -125,7 +131,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				62B675F626D78DBA00A091B5 /* LaunchScreen.storyboard in Resources */,
-				62B675F326D78DBA00A091B5 /* Assets.xcassets in Resources */,
+				AD4C0D2C2708A5BA00F2F1B4 /* LoginPopup.storyboard in Resources */,
+				AD4C0D262708A22100F2F1B4 /* Assets.xcassets in Resources */,
 				62B675F126D78DB900A091B5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				62B675EE26D78DB900A091B5 /* ViewController.swift in Sources */,
+				AD4C0D302708A73F00F2F1B4 /* LoginPopupViewController.swift in Sources */,
 				62B675EA26D78DB900A091B5 /* AppDelegate.swift in Sources */,
 				62B675EC26D78DB900A091B5 /* SceneDelegate.swift in Sources */,
 			);

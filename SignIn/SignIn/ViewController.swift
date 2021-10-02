@@ -69,6 +69,23 @@ class ViewController: UIViewController {
         
         return pred.evaluate(with: email)
     }
+    
+    @IBAction func SignInPressed(_ sender: Any) {
+        if let email = emailTextField.text, let password = passwordTextField.text, email.isEmpty || password.isEmpty || !emailErrorMsg.isHidden || !passwordErrorMsg.isHidden { return }
+        
+        let storyBoard = UIStoryboard.init(name: "LoginPopup", bundle: nil)
+        let VC = storyBoard.instantiateViewController(withIdentifier: "loginpopup") as! LoginPopupViewController
+        
+        VC.modalPresentationStyle = .fullScreen
+        VC.modalPresentationStyle = .overCurrentContext
+        
+        if let email = emailTextField.text {
+            VC.email = email
+        }
+        
+        self.present(VC, animated: true, completion: nil)
+    }
+    
 
 }
 
