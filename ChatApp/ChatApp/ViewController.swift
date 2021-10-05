@@ -79,14 +79,27 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         if indexPath.row % 2 == 0 {
             let mycell = tableView.dequeueReusableCell(withIdentifier: "MyCell", for: indexPath) as! MyTableViewCell
             mycell.myTextView.text = chatData[indexPath.row]
+            mycell.date.text = getDate()
             
             return mycell
         } else {
             let yourcell = tableView.dequeueReusableCell(withIdentifier: "YourCell", for: indexPath) as! YourTableViewCell
             yourcell.yourTextView.text = chatData[indexPath.row]
+            yourcell.date.text = getDate()
             
             return yourcell
         }
+    }
+    
+    func getDate() -> String {
+        let formatter = DateFormatter()
+        formatter.locale = Locale(identifier: "ko_kr")
+        formatter.timeZone = TimeZone(abbreviation: "KST")
+        formatter.dateFormat = "MM/dd HH:mm"
+
+        let dateString = formatter.string(from: Date())
+        
+        return dateString
     }
     
 }
