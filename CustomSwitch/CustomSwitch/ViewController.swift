@@ -18,22 +18,34 @@ class ViewController: UIViewController {
         switchBackground.layer.cornerRadius =
             switchBackground.bounds.height / 2
         // Do any additional setup after loading the view.
+    
+        let gesture = UITapGestureRecognizer(target: self, action:  #selector(switchTapped))
+        switchBackground.addGestureRecognizer(gesture)
+    }
+    
+    @objc func switchTapped(sender : UITapGestureRecognizer) {
+        // Do what you want
+        swichPressed(self)
     }
     
     @IBAction func swichPressed(_ sender: Any) {
-        btnCenter.constant = (btnCenter.constant <= 0) ? 10.5 : -10.5
-        
-//        UIView.animate(withDuration: 0.3) {
-//            self.view.layoutIfNeeded()
-//        }
-        
-        UIView.animate(withDuration: 0.3, delay: 0, usingSpringWithDamping: 1, initialSpringVelocity: 0.5, options: .curveEaseIn) {
+        UIView.animate(withDuration: 0.5, delay: 0, usingSpringWithDamping: 1, initialSpringVelocity: 0.5, options: .showHideTransitionViews) {
+            self.btnCenter.constant = (self.btnCenter.constant <= 0) ? 5.25 : -5.25
+
             self.view.layoutIfNeeded()
         } completion: { _ in
-            
+
         }
         
-        switchBackground.backgroundColor = (btnCenter.constant <= 0) ? .systemGray5 : .systemGreen
+        UIView.animate(withDuration: 0.5, delay: 0, usingSpringWithDamping: 1, initialSpringVelocity: 1, options: .curveEaseIn) {
+            self.btnCenter.constant = (self.btnCenter.constant > 0) ? 10.5 : -10.5
+            self.switchBackground.backgroundColor = (self.btnCenter.constant <= 0) ? .systemGray5 : .systemGreen
+            
+            self.view.layoutIfNeeded()
+        } completion: { _ in
+
+        }
+        
     }
 }
 
