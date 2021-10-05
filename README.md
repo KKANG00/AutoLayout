@@ -135,3 +135,6 @@ let animationDuration = notiInfo[UIResponder.keyboardAnimationDurationUserInfoKe
 ```
 TableView reload -> insertRows  
 textViewDidChange  
+
+![](https://github.com/KKANG00/AutoLayout/blob/main/ChatApp/ChatApp.png)
+

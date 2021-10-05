@@ -11,12 +11,12 @@
 		621466B926D8B3FB00F677E8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621466B826D8B3FB00F677E8 /* SceneDelegate.swift */; };
 		621466BB26D8B3FB00F677E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621466BA26D8B3FB00F677E8 /* ViewController.swift */; };
 		621466BE26D8B3FB00F677E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 621466BC26D8B3FB00F677E8 /* Main.storyboard */; };
-		621466C026D8B3FC00F677E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 621466BF26D8B3FC00F677E8 /* Assets.xcassets */; };
 		621466C326D8B3FC00F677E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 621466C126D8B3FC00F677E8 /* LaunchScreen.storyboard */; };
 		621466D026D8B94B00F677E8 /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621466CE26D8B94B00F677E8 /* MyTableViewCell.swift */; };
 		621466D126D8B94B00F677E8 /* MyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 621466CF26D8B94B00F677E8 /* MyTableViewCell.xib */; };
 		621466D426D8C0AC00F677E8 /* YourTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621466D226D8C0AC00F677E8 /* YourTableViewCell.swift */; };
 		621466D526D8C0AC00F677E8 /* YourTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 621466D326D8C0AC00F677E8 /* YourTableViewCell.xib */; };
+		ADEF646E270C645D00F1D2DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADEF646D270C645D00F1D2DB /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,13 +25,13 @@
 		621466B826D8B3FB00F677E8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		621466BA26D8B3FB00F677E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		621466BD26D8B3FB00F677E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		621466BF26D8B3FC00F677E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		621466C226D8B3FC00F677E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		621466C426D8B3FC00F677E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		621466CE26D8B94B00F677E8 /* MyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
 		621466CF26D8B94B00F677E8 /* MyTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyTableViewCell.xib; sourceTree = "<group>"; };
 		621466D226D8C0AC00F677E8 /* YourTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourTableViewCell.swift; sourceTree = "<group>"; };
 		621466D326D8C0AC00F677E8 /* YourTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YourTableViewCell.xib; sourceTree = "<group>"; };
+		ADEF646D270C645D00F1D2DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,9 +72,9 @@
 				621466CF26D8B94B00F677E8 /* MyTableViewCell.xib */,
 				621466D226D8C0AC00F677E8 /* YourTableViewCell.swift */,
 				621466D326D8C0AC00F677E8 /* YourTableViewCell.xib */,
-				621466BF26D8B3FC00F677E8 /* Assets.xcassets */,
 				621466C126D8B3FC00F677E8 /* LaunchScreen.storyboard */,
 				621466C426D8B3FC00F677E8 /* Info.plist */,
+				ADEF646D270C645D00F1D2DB /* Assets.xcassets */,
 			);
 			path = ChatApp;
 			sourceTree = "<group>";
@@ -138,9 +138,9 @@
 			files = (
 				621466C326D8B3FC00F677E8 /* LaunchScreen.storyboard in Resources */,
 				621466D126D8B94B00F677E8 /* MyTableViewCell.xib in Resources */,
-				621466C026D8B3FC00F677E8 /* Assets.xcassets in Resources */,
 				621466D526D8C0AC00F677E8 /* YourTableViewCell.xib in Resources */,
 				621466BE26D8B3FB00F677E8 /* Main.storyboard in Resources */,
+				ADEF646E270C645D00F1D2DB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
