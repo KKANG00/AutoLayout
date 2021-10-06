@@ -112,7 +112,7 @@ TextField.addTarget
 heightAnchor.constraint(equalToConstant: 0)  
 Regular Expression  
 ``` swift
-//이메일 정규식 표현  
+//이메일 정규표현식  
 let emailRegEx = "[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,64}"
 ```
 
